@@ -1,0 +1,59 @@
+*, ::before, ::after {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+label {
+  font-size:20px;
+}
+html, body {
+  width:100%;
+  height:100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #fff;
+  padding:32px 48px;
+  border-radius: 10px;
+  width:100%;
+  max-width:400px;
+  box-shadow: 8px 8px 24px 0 rgba( 66, 68, 90, .7 );
+}
+.container > h1 {
+  margin:0 0 10px 0;
+}
+.container > form {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+.container input {
+  width:100%;
+  font-size:20px;
+  padding:10px;
+  border:none;
+  border-bottom:1px solid #000;
+  outline: none;
+}
+.container input::placeholder {
+  font-size:12px;
+  font-style: italic;
+}
+button {
+  background-color: purple;
+  border:none;
+  font-size:20px;
+  color:#fff;
+  border-radius: 5px;
+  padding:10px;
+  cursor: pointer;
+  margin:10px 0;
+}
